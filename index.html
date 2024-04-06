@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Umi Digital</title>
+    <meta name="description" content="Umi Digital" />
+    <meta name="author" content="Umi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="left">
+          <a class="main-logo" href="#">
+            <img class="logo" src="./images/king.png" />
+            <span class="h-font"> UMI <span>DIGITAL</span> </span>
+          </a>
+        </div>
+        <div class="right">
+          <button class="navbar-toggler" role="button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section id="hero">
+      <div class="holder slider">
+        <div id="slider-hero">
+          <div class="slider-item object-fit-container">
+            <div class="overlay"></div>
+            <img src="./images/hero-image.png" alt="" />
+            <div class="caption">
+              <div>
+                <h1>Luxury villas in Holborn, London, England</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="simple-content p-default p-new p-end">
+        <div>
+          <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+          </p>
+        </div>
+      </section>
+      <section class="villas row">
+        <div class="column villas-left">
+          <div class="text-block">
+            <h2>The Villas</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly believable.
+            </p>
+            <button>SEE MORE</button>
+          </div>
+        </div>
+        <div class="column villas-right">
+          <div class="image-stack">
+            <img class="img1" src="./images/hero-image.png" alt="Beautiful villa">
+            <img class="img2" src="./images/bg-wave.svg" alt="Background wave">
+          </div>
+        </div>
+      </section>
+      <div class="add-div">
+        <button id="add-section">ADD SECTION</button>
+      </div>
+      <section class="weddings row" id="wedding-section">
+        <div class="column wedding-left">
+          <div class="image-stack">
+            <img class="img1" src="./images/hero-image.png" alt="Beautiful villa">
+            <img class="img2" src="./images/bg-wave.svg" alt="Background wave">
+          </div>
+        </div>
+        <div class="column wedding-right">
+          <div class="text-block" id="wedding-text">
+            <h2>Weddings & Events</h2>
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampton-Sydney College in Virginia.
+            </p>
+            <button>SEE MORE</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      var weddingSection = document.getElementById("wedding-section");
+      weddingSection.style.display = 'none';
+
+      document.getElementById("add-section").addEventListener("click", function() {
+        weddingSection.style.display = 'flex';
+      });
+    </script>
+  </body>
+</html>
