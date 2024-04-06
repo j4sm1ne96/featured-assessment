@@ -13,5 +13,6 @@ Featured sections include:
 <img width="827" alt="Screenshot 2024-04-06 at 17 12 40" src="https://github.com/j4sm1ne96/featured-assessment/assets/83115753/ea7c7e4a-3daa-40ec-b765-bf01f6d5bfed">
 
 Mobile version:
+
 <img width="371" alt="Screenshot 2024-04-06 at 17 13 03" src="https://github.com/j4sm1ne96/featured-assessment/assets/83115753/029faf55-4e3d-4753-a2e0-094296dfd863">
 
